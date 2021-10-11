@@ -10,8 +10,8 @@ main {
 }
 
 .contact-container {
-    height: 60%;
-    width: 70%;
+    height: 70vh;
+    width: 70vw;
     text-align: center;
     background-color: rgba(213, 219, 223, 0.5);
     border-radius: 15px 50px 30px;
@@ -20,8 +20,9 @@ main {
 }
 
 .contact-container h2 {
-    letter-spacing: 5px;
+    letter-spacing: 1em;
     margin: 1rem auto;
+    word-wrap:break-word;
 }
 
 .contact-form {
@@ -29,16 +30,16 @@ main {
     flex-direction: column;
     justify-content: left;
     text-align: left;
-    margin: auto 4rem;
+    margin:auto 4rem;
 }
 
 textarea {
-    height: 6rem !important;
+    height: 6em !important;
 }
 
 .inputbox {
     width: 100%;
-    height: 2rem;
+    height: 2.5em;
     border-radius: 0;
     background: none;
     border: none;
@@ -51,14 +52,15 @@ textarea {
     width: 100%;
     background: #FF4C29;
     /*FF4C29*/
-    height: 3rem;
+    height: 2.5em;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+    font-size: 1.2em;
     font-weight: 600;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 1rem;
+    margin-bottom:1vh;
 }
 
 .submit-btn:hover {

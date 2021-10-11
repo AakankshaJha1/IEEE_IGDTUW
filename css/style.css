@@ -613,7 +613,7 @@ a.rotate-box-2:hover {
 
 .portfoloi_top {}
 
-.portfoloi_content_area {
+.portfolio_content_area {
     margin-top: -30px;
 }
 
@@ -631,14 +631,15 @@ a.rotate-box-2:hover {
 
 .portfolio_menu ul li {
     display: inline-block;
+    word-wrap:none;
 }
 
 .portfolio_menu ul li a {
     color: #363940;
     background: transparent;
     display: inline-block;
-    margin: 4px;
-    padding: 8px 10px;
+    margin: 0.5vw;
+    padding: 1.3em 0.7em;
     text-decoration: none;
     text-transform: uppercase;
 }
