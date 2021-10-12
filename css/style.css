@@ -970,6 +970,10 @@ ul.social-list li a i {
 .footer a {
     text-decoration: none;
 }
+  /*Footer link*/
+  .h-link:hover{
+    color: aqua;
+  }
 
 /*Widget1: Useful Links*/
 ul.imp-links {
