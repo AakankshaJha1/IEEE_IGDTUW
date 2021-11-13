@@ -421,7 +421,7 @@ h2 {
 
 .middle-container2{
   margin-left: 12em;
-  
+}
 /* 
 .a-box {
   display: inline-block;
@@ -480,5 +480,10 @@ footer {
   .btn {
     width: 80%;
     display: flex;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heading-main{
+    font-size: 9vw !important;
   }
 }
