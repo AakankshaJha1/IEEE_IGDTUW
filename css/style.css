@@ -972,8 +972,14 @@ ul.social-list li a i {
 }
 
 /*Widget1: Useful Links*/
+.useful-link h4{
+  text-align: center !important;
+}
 ul.imp-links {
   margin-top: 15px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 ul.imp-links li {
